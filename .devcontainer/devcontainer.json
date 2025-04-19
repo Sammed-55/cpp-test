@@ -1,0 +1,10 @@
+{
+  "name": "C++ Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/cpp",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": ["ms-vscode.cpptools"],
+  "forwardPorts": [],
+  "postCreateCommand": "echo Ready to code in C++!"
+}
